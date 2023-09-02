@@ -1,0 +1,75 @@
+.App {
+  display: grid;
+  place-items: center;
+}
+.center{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap:10px;
+  width: 50%;
+  height: 50%;
+}
+.center a{
+text-decoration: none;
+}
+.box {
+  background-color: azure;
+ /* height: 60px; */
+ text-align: center;
+ padding: 30px;
+  border: 1px solid rgb(236, 235, 235);
+}
+
+.box1 {
+  background-color: rgb(255, 255, 255);
+ /* height: 60px; */
+ text-align: center;
+ padding: 30px;
+  border: 1px solid rgb(236, 235, 235);
+}
+.header{
+text-align: end;
+padding: 10px;
+font-size: 22px;
+}
+.text{
+  padding: 30px;
+  text-align: center;
+}
+.modal-wrapper{
+  position:fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background-color: rgba(225, 225, 225, 0.687);
+} 
+.modal-container{
+  position:fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  max-width: 30rem;
+  background-color: #fff;
+  width: 40rem;
+  padding: 20px;
+}
+.modal-container input{
+text-align: center;
+padding: 12px;
+width: 94%;
+margin-top: 10px;
+border: 2px solid #efefef;
+font-size: 18px;
+}
+.btn{
+  margin:10px 0 10px 0 ;
+  text-align: end;
+}
+.btn button{
+  border: none;
+  color: #fff;
+  background-color: green;
+  font-size: 20px;
+  padding: 5px 15px 5px 15px;
+}
